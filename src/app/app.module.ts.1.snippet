@@ -1,0 +1,13 @@
+// ...
+/*BS*/import { BooksModule } from './books/books.module';/*BE*/
+
+@NgModule({
+  // ...
+  imports: [
+    BrowserModule,
+    AppRoutingModule/*BS*/,
+    BooksModule/*BE*/
+  ],
+  // ...
+})
+export class AppModule { }
